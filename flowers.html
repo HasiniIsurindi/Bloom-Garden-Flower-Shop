@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers | Bloom Garden</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold text-danger" href="index.html">
+            Bloom Garden
+        </a>
+
+        <button class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="flowers.html">Flowers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">
+                        Cart 🛒
+                        <span id="cart-count" class="badge bg-danger">0</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- Heading -->
+
+<section class="container py-5 text-center">
+
+    <h1 class="mb-3">Our Flowers</h1>
+
+    <p class="text-muted">
+        Fresh flowers for birthdays, weddings, anniversaries and every special occasion.
+    </p>
+
+</section>
+
+<!-- Products -->
+
+<section class="container pb-5">
+
+<div class="row g-4">
+
+<!-- Product 1 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Red Rose Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 4,500</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Red Rose Bouquet',4500)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 2 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Pink Roses</h5>
+
+<p class="text-danger fw-bold">Rs. 5,000</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Pink Roses',5000)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 3 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1455656678494-4d1b5f3e7ad1?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Mixed Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 6,000</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Mixed Bouquet',6000)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 4 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Sunflowers</h5>
+
+<p class="text-danger fw-bold">Rs. 3,800</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Sunflowers',3800)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 5 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1470509037663-253afd7f0f51?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>White Lilies</h5>
+
+<p class="text-danger fw-bold">Rs. 5,700</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('White Lilies',5700)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 6 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Orchid Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 7,500</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Orchid Bouquet',7500)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 7 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Tulips</h5>
+
+<p class="text-danger fw-bold">Rs. 5,500</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Tulips',5500)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 8 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Daisy Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 3,500</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Daisy Bouquet',3500)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 9 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Purple Roses</h5>
+
+<p class="text-danger fw-bold">Rs. 6,200</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Purple Roses',6200)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 10 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Carnation Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 4,800</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Carnation Bouquet',4800)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 11 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Yellow Roses</h5>
+
+<p class="text-danger fw-bold">Rs. 4,600</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Yellow Roses',4600)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+<!-- Product 12 -->
+
+<div class="col-md-4">
+<div class="card h-100">
+
+<img src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?w=600" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Luxury Bouquet</h5>
+
+<p class="text-danger fw-bold">Rs. 9,500</p>
+
+<button class="btn btn-danger"
+onclick="addToCart('Luxury Bouquet',9500)">
+Add to Cart
+</button>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer class="bg-dark text-white text-center p-4">
+    <p>© 2026 Bloom Garden Flower Shop</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

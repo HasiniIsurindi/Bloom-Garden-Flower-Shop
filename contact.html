@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bloom Garden</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold text-danger" href="index.html">
+            Bloom Garden
+        </a>
+
+
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="flowers.html">
+                        Flowers
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">
+                        Cart 🛒
+                        <span id="cart-count" class="badge bg-danger">
+                            0
+                        </span>
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- Contact Header -->
+
+<section class="contact-banner">
+
+    <div class="container text-center text-white">
+
+        <h1>
+            Contact Us
+        </h1>
+
+        <p>
+            We would love to hear from you.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- Contact Section -->
+
+<section class="container py-5">
+
+
+<div class="row">
+
+
+<!-- Contact Details -->
+
+<div class="col-md-5">
+
+
+<h2>
+    Get In Touch
+</h2>
+
+
+<p>
+    Have questions about flowers, delivery, or custom bouquets?
+    Contact our team anytime.
+</p>
+
+
+<div class="mt-4">
+
+
+<h5>
+    📍 Address
+</h5>
+
+<p>
+    Colombo, Sri Lanka
+</p>
+
+
+<h5>
+    📞 Phone
+</h5>
+
+<p>
+    +94 77 123 4567
+</p>
+
+
+<h5>
+    ✉ Email
+</h5>
+
+<p>
+    info@bloomgarden.lk
+</p>
+
+
+<h5>
+    🕒 Opening Hours
+</h5>
+
+<p>
+    Monday - Sunday<br>
+    8.00 AM - 8.00 PM
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+<!-- Contact Form -->
+
+<div class="col-md-7">
+
+
+<div class="card shadow p-4">
+
+
+<h2 class="mb-4">
+    Send Message
+</h2>
+
+
+<form onsubmit="sendMessage(event)">
+
+
+<div class="mb-3">
+
+<label class="form-label">
+    Name
+</label>
+
+<input type="text"
+class="form-control"
+placeholder="Enter your name"
+required>
+
+</div>
+
+
+
+<div class="mb-3">
+
+<label class="form-label">
+    Email
+</label>
+
+<input type="email"
+class="form-control"
+placeholder="Enter your email"
+required>
+
+</div>
+
+
+
+<div class="mb-3">
+
+<label class="form-label">
+    Message
+</label>
+
+<textarea 
+class="form-control"
+rows="5"
+placeholder="Your message"
+required></textarea>
+
+</div>
+
+
+
+<button class="btn btn-danger">
+    Send Message
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- Map -->
+
+<section class="container mb-5">
+
+
+<h2 class="text-center mb-4">
+    Find Our Store
+</h2>
+
+
+<div class="ratio ratio-21x9">
+
+<iframe
+src="https://maps.google.com/maps?q=Colombo%20Sri%20Lanka&t=&z=13&ie=UTF8&iwloc=&output=embed"
+allowfullscreen>
+</iframe>
+
+</div>
+
+
+</section>
+
+
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center p-4">
+
+<p>
+    © 2026 Bloom Garden Flower Shop
+</p>
+
+</footer>
+
+
+
+<script src="js/script.js"></script>
+
+<script>
+updateCartCount();
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
