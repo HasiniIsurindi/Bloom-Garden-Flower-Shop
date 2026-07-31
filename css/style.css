@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', Arial, sans-serif;
+}
+
+
+body{
+    background:#fff8fb;
+    color:#333;
+}
+
+
+/* Navbar */
+
+.navbar-brand{
+    font-size:26px;
+    letter-spacing:1px;
+}
+
+
+.nav-link{
+    font-weight:500;
+    margin-left:10px;
+}
+
+
+.nav-link:hover,
+.nav-link.active{
+    color:#dc3545 !important;
+}
+
+
+
+/* Home Hero */
+
+.hero{
+
+    height:85vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1600")
+    center/cover no-repeat;
+
+    display:flex;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+}
+
+
+.hero h1{
+
+    font-size:55px;
+    font-weight:700;
+
+}
+
+
+.hero p{
+
+    font-size:22px;
+    margin:20px 0;
+
+}
+
+
+
+
+/* Cards */
+
+.card{
+
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+.card img{
+
+    height:250px;
+    object-fit:cover;
+
+}
+
+
+.card h5{
+
+    font-weight:600;
+
+}
+
+
+
+
+/* Buttons */
+
+.btn-danger{
+
+    background:#e91e63;
+    border:none;
+
+}
+
+
+.btn-danger:hover{
+
+    background:#c2185b;
+
+}
+
+
+
+/* About Page */
+
+.about-banner{
+
+    height:300px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=1600")
+    center/cover;
+
+
+    display:flex;
+    align-items:center;
+
+}
+
+
+.about-banner h1{
+
+    font-size:45px;
+
+}
+
+
+
+/* Contact Page */
+
+.contact-banner{
+
+    height:300px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600")
+    center/cover;
+
+
+    display:flex;
+    align-items:center;
+
+}
+
+
+.contact-banner h1{
+
+    font-size:45px;
+
+}
+
+
+
+/* Product Grid */
+
+.products{
+
+    padding:40px 0;
+
+}
+
+
+
+/* Cart Table */
+
+.table{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+
+.table th{
+
+    background:#f8d7da;
+
+}
+
+
+
+/* Cart Buttons */
+
+.quantity-btn{
+
+    width:35px;
+    height:35px;
+
+    border:none;
+
+    background:#e91e63;
+
+    color:white;
+
+    border-radius:5px;
+
+}
+
+
+.remove-btn{
+
+    background:#dc3545;
+
+    color:white;
+
+    border:none;
+
+    padding:7px 15px;
+
+    border-radius:5px;
+
+}
+
+
+
+
+/* Contact Form */
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:12px;
+
+}
+
+
+textarea{
+
+    resize:none;
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    margin-top:50px;
+
+}
+
+
+footer p{
+
+    margin:0;
+
+}
+
+
+
+/* Responsive Design */
+
+
+@media(max-width:768px){
+
+
+.hero{
+
+    height:70vh;
+
+}
+
+
+.hero h1{
+
+    font-size:35px;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+
+.about-banner h1,
+.contact-banner h1{
+
+    font-size:35px;
+
+}
+
+
+.card img{
+
+    height:220px;
+
+}
+
+
+}
