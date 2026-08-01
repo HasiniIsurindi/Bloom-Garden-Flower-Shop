@@ -4,7 +4,7 @@ A responsive flower shop website built using **HTML, CSS, Bootstrap, and JavaScr
 Users can browse flowers, add items to a cart, and manage purchases with LKR pricing. 
 
 ## ✨ Features
-
+ 
 - 🏠 Home page with flower shop introduction
 - 🌺 Flower product listing
 - 🛒 Add to cart functionality
