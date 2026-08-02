@@ -15,7 +15,7 @@ Users can browse flowers, add items to a cart, and manage purchases with LKR pri
 - 📖 About page
 - 📱 Responsive design 
 
-## 🛠️ Technologies
+## 🛠️ Technologies 
 
 - HTML5
 - CSS3
