@@ -13,7 +13,7 @@ Users can browse flowers, add items to a cart, and manage purchases with LKR pri
 - 💾 Local Storage cart management
 - 📞 Contact page
 - 📖 About page
-- 📱 Responsive design
+- 📱 Responsive design 
 
 ## 🛠️ Technologies
 
